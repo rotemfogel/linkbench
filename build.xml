@@ -66,9 +66,9 @@
     <!-- Put everything in ${build} into the jar file -->
     <jar jarfile="${linkbench.jar}" basedir="${build}"/>
 
-    <!-- Symlink latest -->
+    <!-- Symlink latest >
     <delete file="${linkbench.latest.jar}" />
-    <symlink link="${linkbench.latest.jar}" resource="${linkbench.jar}" />
+    <symlink link="${linkbench.latest.jar}" resource="${linkbench.jar}" / -->
   </target>
 
   <target name="test" description="Execute unit tests"
