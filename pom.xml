@@ -9,36 +9,12 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <url>https://github.com/facebook/linkbench</url>
+    <url>https://github.com/rotemfogel/linkbench</url>
     <inceptionYear>2012</inceptionYear>
-
-    <developers>
-        <developer>
-            <id>tarmstrong</id>
-            <name>Tim Armstrong</name>
-            <email>tarmstrong@fb.com</email>
-        </developer>
-        <developer>
-            <id>dhruba</id>
-            <name>Dhruba Borthakur</name>
-            <email>dhruba@fb.com</email>
-        </developer>
-        <developer>
-            <id>amayank</id>
-            <name>Mayank Agarwal</name>
-            <email>amayank@fb.com</email>
-        </developer>
-        <developer>
-            <id>andrewcox</id>
-            <name>Andrew Cox</name>
-            <email>andrewcox@fb.com</email>
-        </developer>
-    </developers>
-
     <scm>
-        <connection>scm:git:https://github.com/facebook/linkbench.git</connection>
-        <developerConnection>scm:git@github.com:facebook/linkbench.git</developerConnection>
-        <url>https://github.com/facebook/linkbench</url>
+        <connection>scm:git:https://github.com/rotemfogel/linkbench.git</connection>
+        <developerConnection>scm:git@github.com:rotemfogel/linkbench.git</developerConnection>
+        <url>https://github.com/rotemfogel/linkbench</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -46,12 +22,12 @@
       <dependency>
         <groupId>com.facebook.swift</groupId>
         <artifactId>swift-codec</artifactId>
-        <version>0.4.0</version>
+        <version>0.5.0</version>
       </dependency>
       <dependency>
         <groupId>com.facebook.swift</groupId>
         <artifactId>swift-service</artifactId>
-        <version>0.4.0</version>
+        <version>0.5.0</version>
       </dependency>
     </dependencies>
 
